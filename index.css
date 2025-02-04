@@ -1,0 +1,102 @@
+/* index.css */
+body {
+  font-family: sans-serif;
+  margin: 0; /* Remove margens padrão do body */
+  display: flex;
+  flex-direction: column; /* Alinha os elementos verticalmente */
+  min-height: 100vh; /* Garante que o rodapé fique no final da página */
+}
+
+header {
+  background-color: #333; /* Cor de fundo do cabeçalho */
+  padding: 20px;
+}
+
+.banner {
+  width: 100%;
+  overflow: hidden; /* Esconde conteúdo que ultrapassa o banner */
+}
+
+.banner img {
+  width: 100%;
+  display: block; /* Evita espaço em branco abaixo da imagem */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estilos para o texto no banner (se usar texto em vez de imagem) */
+.banner h1, .banner h2 {
+  text-align: center;
+  color: white; /* Cor do texto no banner */
+  /* Outros estilos para o texto do banner */
+}
+
+.header-content {
+  text-align: center; /* Centraliza o texto do cabeçalho */
+  margin-top: 10px; /* Espaçamento entre o banner e o texto */
+}
+
+main {
+  flex: 1; /* Ocupa o espaço disponível */
+  padding: 20px;
+  text-align: center; /* Centraliza o conteúdo principal */
+}
+
+.about img {
+  max-width: 50%; /* Largura máxima da imagem do restaurante */
+  height: auto;
+  display: block; /* Evita espaço em branco abaixo da imagem */
+  margin: 20px auto; /* Centraliza a imagem */
+}
+
+.about p {
+  text-align: justify; /* Justifica o texto */
+  margin-bottom: 20px;
+}
+
+.menu-link a {
+  display: inline-block; /* Transforma o link em bloco para estilização */
+  padding: 10px 20px;
+  background-color: #007bff; /* Cor de fundo do botão */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease; /* Transição suave */
+}
+
+.menu-link a:hover {
+  background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+}
+
+th, td {
+  padding: 0.8em;
+  text-align: left;
+  border-bottom: 1px solid #471919;
+}
+
+th {
+  background-color: #eee;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
