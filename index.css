@@ -1,102 +1,100 @@
-/* index.css */
 body {
-  font-family: sans-serif;
-  margin: 0; /* Remove margens padrão do body */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
   display: flex;
-  flex-direction: column; /* Alinha os elementos verticalmente */
-  min-height: 100vh; /* Garante que o rodapé fique no final da página */
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f8f8f8;
 }
 
 header {
-  background-color: #333; /* Cor de fundo do cabeçalho */
-  padding: 20px;
-}
-
-.banner {
-  width: 100%;
-  overflow: hidden; /* Esconde conteúdo que ultrapassa o banner */
-}
-
-.banner img {
-  width: 100%;
-  display: block; /* Evita espaço em branco abaixo da imagem */
-  height: auto; /* Mantém a proporção da imagem */
-}
-
-/* Estilos para o texto no banner (se usar texto em vez de imagem) */
-.banner h1, .banner h2 {
+  background-color: #333;
+  color: #ffffff;
+  padding: 1em 0;
   text-align: center;
-  color: white; /* Cor do texto no banner */
-  /* Outros estilos para o texto do banner */
 }
 
-.header-content {
-  text-align: center; /* Centraliza o texto do cabeçalho */
-  margin-top: 10px; /* Espaçamento entre o banner e o texto */
+h1 {
+  margin: 0;
 }
 
-main {
-  flex: 1; /* Ocupa o espaço disponível */
-  padding: 20px;
-  text-align: center; /* Centraliza o conteúdo principal */
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 1em 0;
+  text-align: center;
+  display: flex;
+
+ 
 }
 
-.about img {
-  max-width: 50%; /* Largura máxima da imagem do restaurante */
-  height: auto;
-  display: block; /* Evita espaço em branco abaixo da imagem */
-  margin: 20px auto; /* Centraliza a imagem */
+nav a:hover {
+  background-color: #c1b8b8; 
 }
 
-.about p {
-  text-align: justify; /* Justifica o texto */
-  margin-bottom: 20px;
-}
-
-.menu-link a {
-  display: inline-block; /* Transforma o link em bloco para estilização */
-  padding: 10px 20px;
-  background-color: #007bff; /* Cor de fundo do botão */
-  color: white;
+nav a {
   text-decoration: none;
-  border-radius: 5px;
+  color: #333;
+  font-weight: bold;
+  padding: 0.5em 1em; /* Espaçamento nos links */
+  border-radius: 5px; /* Bordas arredondadas */
   transition: background-color 0.3s ease; /* Transição suave */
 }
 
-.menu-link a:hover {
-  background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
-}
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 1em;
+
+.banner h1 {
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  margin: 0;
 }
 
-th, td {
-  padding: 0.8em;
-  text-align: left;
-  border-bottom: 1px solid #471919;
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
-th {
-  background-color: #eee;
-  font-weight: bold;
+.restaurant-img {
+  max-width: 100%;
+  width: 600px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-ul {
-  list-style-type: disc;
-  margin-left: 20px;
+.quadrado {
+  width: 400px;
+  background-color: #a4aaa4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #333;
+  line-height: 1.6;
 }
+
+.quadrado p {
+  text-align: justify;
+}
+
+.menu-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+
 footer {
   background-color: #333;
   color: white;
-  text-align: center;
   padding: 10px;
+  text-align: center;
+  font-size: 14px;
 }
 
-footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 10px;
-}
+
+

@@ -1,21 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <h1>Reserva</h1>
+    <link rel="stylesheet" href="reserva.css">
+   
+    
+    </style>
 </head>
 <body>
-    <form action=>
-        <label for="fname">Coloque seu nome:</label><br>
-        <input type="text" id="fname" name="fname" value=""><br>
-        <input datetime-local for="lname">Data e hora:</input><br>
-        <label for="fname">Numero de pessoas:</label><br>
-        <input type="text" id="fname" name="fname" value=""><br>
-        <label for="fname">Preferências especiais:</label><br>
-        <input type="text" id="fname" name="fname" value=""><br>
-        <input type="submit" value="Enviar">
-      </form> 
+
+    <header>
+        <h1>Faça sua Reserva</h1>
+    </header>
+
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="data">Data e Hora:</label>
+        <input type="datetime-local" id="data" name="data" required>
+
+        <label for="quantidade">Quantidade:</label>
+        <input type="number" id="quantidade" name="quantidade" required>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <footer>
+        <p>Sabor Gourmet</p>
+    </footer>
+
 </body>
 </html>

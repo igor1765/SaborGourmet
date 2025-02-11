@@ -9,24 +9,22 @@ body {
 
 header {
     background-color: #333;
-    color: #fff;
+    color: #ffffff;
     padding: 1em 0;
     text-align: center;
-}
-
-h1 {
+  }
+  
+  h1 {
     margin: 0;
-}
-
+  }
 nav ul {
     list-style: none;
     padding: 0;
     margin: 1em 0;
-    text-align: center; /* Centraliza os links */
+    text-align: center;
 }
-
 nav li {
-    display: inline; /* Links em linha */
+    display: inline; 
     margin: 0 1em;
 }
 
@@ -40,15 +38,15 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #ddd; /* Cor de fundo ao passar o mouse */
+    background-color: #d5d1d1; /* Cor de fundo ao passar o mouse */
 }
 
 section {
     padding: 2em;
     margin: 1em auto; /* Centraliza as seções */
-    max-width: 800px; /* Largura máxima das seções */
-    background-color: #fff; /* Fundo branco para as seções */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 800px; 
+    background-color: #fff; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
 
@@ -61,7 +59,8 @@ h2 {
 footer {
     background-color: #333;
     color: white;
-    text-align: center;
     padding: 10px;
+    text-align: center;
+    font-size: 14px;
   }
   
